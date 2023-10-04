@@ -22,37 +22,48 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
-
+```
+create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+```
 ### OUTPUT:
+![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/b30dd682-cc9e-4ed4-9610-78662bb8f2bd)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```
+alter table student add department char(30);
+```
 ### OUTPUT:
+![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/3d586e98-2d0f-497f-b8a6-9f49d8f5cf0b)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
-
+```
+drop table student;
+```
 ### OUTPUT:
+![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/297f5338-865f-439b-b823-1abdccaea462)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
-
+```
+truncate table student;
+```
 ### OUTPUT:
-
-
+![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/906f5835-dae4-45aa-a692-52079cdc68a6)
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```
+alter table student rename to mystudent;
+```
 
 ### OUTPUT:
+![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/47d08987-1d97-4733-a634-c9d049e1b7e3)
