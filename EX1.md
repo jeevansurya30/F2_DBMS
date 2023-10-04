@@ -26,7 +26,8 @@ RENAME: This is used to rename an object existing in the database.
 create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
 ```
 ### OUTPUT:
-![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/b30dd682-cc9e-4ed4-9610-78662bb8f2bd)
+![image](https://github.com/jeevansurya30/F2_DBMS/assets/129417865/03a2e25f-be1c-4e53-9c5f-23bbe4ab548c)
+
 
 
 ### 2) Change the above student table by adding another attribute department
@@ -36,8 +37,7 @@ create table student(rollno int,name char(20),age int,addr varchar(20),phoneno i
 alter table student add department char(30);
 ```
 ### OUTPUT:
-![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/3d586e98-2d0f-497f-b8a6-9f49d8f5cf0b)
-
+![image](https://github.com/jeevansurya30/F2_DBMS/assets/129417865/44f298e0-2c71-4733-a5c0-5e2888ac4dc1)
 
 ### 3) Drop the student table
  
@@ -46,7 +46,8 @@ alter table student add department char(30);
 drop table student;
 ```
 ### OUTPUT:
-![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/297f5338-865f-439b-b823-1abdccaea462)
+![image](https://github.com/jeevansurya30/F2_DBMS/assets/129417865/6b7fc69f-5c2d-4c00-8491-597ede5b0a7a)
+
 
 
 ### 4) Delete the student table using truncate keyword
@@ -56,7 +57,8 @@ drop table student;
 truncate table student;
 ```
 ### OUTPUT:
-![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/906f5835-dae4-45aa-a692-52079cdc68a6)
+![image](https://github.com/jeevansurya30/F2_DBMS/assets/129417865/0bbabe5a-9afc-4648-bf47-4bc4918679cc)
+
 
 ### 5) Rename the student table to mystudent
 
@@ -66,4 +68,5 @@ alter table student rename to mystudent;
 ```
 
 ### OUTPUT:
-![image](https://github.com/KameshLeVI/F2_DBMS/assets/120780633/47d08987-1d97-4733-a634-c9d049e1b7e3)
+![image](https://github.com/jeevansurya30/F2_DBMS/assets/129417865/233024aa-21a8-434d-b50d-c96fdac08c7f)
+
